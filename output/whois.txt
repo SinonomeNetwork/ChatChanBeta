@@ -1,0 +1,37 @@
+[ JPRS database provides information on network administration. Its use is    ]
+[ restricted to network administration purposes. For further information,     ]
+[ use 'whois -h whois.jprs.jp help'. To suppress Japanese output, add'/e'     ]
+[ at the end of command, e.g. 'whois -h whois.jprs.jp xxx/e'.                 ]
+[                                                                             ]
+[ Notice -------------------------------------------------------------------- ]
+[ JPRS will add the [Lock Status] element to the response format of JP domain ]
+[ name on November 12, 2023.                                                  ]
+[ For further information, please see the following webpage.                  ]
+[ https://jprs.jp/whatsnew/notice/2023/231112.html (only in Japanese)         ]
+[ --------------------------------------------------------------------------- ]
+Domain Information:
+[Domain Name]                   SINONOMENETWORK.JP
+
+[Registrant]                    (Not displayed by registrant's request)
+                                For details -> https://jprs.jp/about/dom-rule/whois-concealment/ (only in Japanese)
+
+[Name Server]                   clint.ns.cloudflare.com
+[Name Server]                   kay.ns.cloudflare.com
+[Signing Key]                   
+
+[Created on]                    2023/03/14
+[Expires on]                    2024/03/31
+[Status]                        Active
+[Last Updated]                  2023/09/05 21:13:03 (JST)
+
+Contact Information:
+[Name]                          Whois Privacy Protection Service by onamae.com
+[Email]                         proxy@whoisprotectservice.com
+[Web Page]                       
+[Postal code]                   150-8512
+[Postal Address]                Shibuya-ku
+                                26-1 Sakuragaoka-cho
+                                Cerulean Tower 11F
+[Phone]                         +81.354562560
+[Fax]                           
+

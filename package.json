@@ -5,6 +5,8 @@
   "main": "main.js",
   "dependencies": {
     "busboy": "^1.6.0",
+    "child_process": "^1.0.2",
+    "colors": "^1.4.0",
     "discord-api-types": "^0.37.50",
     "discord.js": "v14",
     "fast-deep-equal": "^3.1.3",

@@ -1,2 +1,2 @@
 # チャットちゃん[β]
-![img](https://datas.sinonomenetwork.jp/images/ccb.png)
+![img](https://github.com/SinonomeNetwork/ChatChanBeta/blob/main/ccb.png)

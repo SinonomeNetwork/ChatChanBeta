@@ -1,6 +1,7 @@
 #にゃー
 config.json
 package-lock.json
+./join_server_list.txt
 
 # Logs
 logs

@@ -51,7 +51,7 @@ client.on('ready',async ()=>{
 	ready.setTimestamp();
     ready.setFooter({text:`BotStarting Logs`,iconURL:"https://datas.sinonomenetwork.jp/images/discord/Verified.png"});
 	client.channels.fetch(config.logChannels.starting).then(c=>c.send({embeds:[ready]}));
-	client.channels.cache.get(config.logch.ready).send({embeds:[ready_embed]});
+	//client.channels.cache.get(config.logch.ready).send({embeds:[ready_embed]});
 	let count=0;
 	setInterval(()=>{
 		if(count===0){client.user.setPresence({status:'dnd',activities:[{name:'WebSite: https://www.sinonomenetwork.jp/',type:ActivityType.Streaming}]});count++;return};

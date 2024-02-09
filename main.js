@@ -50,8 +50,8 @@ client.on('ready',async ()=>{
     ready.setTitle(`${config.BotName}を起動しました`);
 	ready.setTimestamp();
     ready.setFooter({text:`BotStarting Logs`,iconURL:"https://datas.sinonomenetwork.jp/images/discord/Verified.png"});
-	// client.channels.fetch(config.logChannels.starting).then(c=>c.send({embeds:[ready]}));
-	//client.channels.cache.get(config.logch.ready).send({embeds:[ready_embed]});
+	client.channels.fetch(config.logChannels.starting).then(c=>c.send({embeds:[ready]}));
+	client.channels.cache.get(config.logch.ready).send({embeds:[ready_embed]});
 	let count=0;
 	setInterval(()=>{
 		if(count===0){client.user.setPresence({status:'dnd',activities:[{name:'WebSite: https://www.sinonomenetwork.jp/',type:ActivityType.Streaming}]});count++;return};
@@ -76,7 +76,7 @@ client.on("interactionCreate",async interaction=>{
 	);
 	logs.setTimestamp();
 	logs.setFooter({text:`Command Logs`,iconURL:"https://datas.sinonomenetwork.jp/images/discord/Verified.png"});
-	// client.channels.fetch(config.logChannels.command).then(c=>c.send({embeds:[logs]}));
+	client.channels.fetch(config.logChannels.command).then(c=>c.send({embeds:[logs]}));
 	if(!command){console.error(`<:NO:1172160732494823504> **${interaction.commandName}** というコマンドは存在しません`);return}
 	try{await command.execute(interaction,client)}
 	catch(error){

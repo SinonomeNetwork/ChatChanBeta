@@ -31,7 +31,7 @@ module.exports={
 			poll.addFields({name:`${emoji} **${option.value}**`,value:' '});
 		};
 		poll.setTimestamp();
-		poll.setFooter({text:`${config.BotName} - Poll`,iconURL:"https://datas.sinonomenetwork.jp/images/discord/Verified.png"});
+		poll.setFooter({text:`${config.BotName} - Poll (${interaction.user.displayName})`,iconURL:"https://datas.sinonomenetwork.jp/images/discord/Verified.png"});
         const message=await channel.send({embeds:[poll]});
 		for(let i=1;i<options.length;i++){
 			const emoji=emojis[i-1];

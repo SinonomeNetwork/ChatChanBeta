@@ -21,7 +21,7 @@ module.exports = {
     await interaction.reply("更新中...\n" + "```ansi\n" + msg + "\n```");
     let lock = false;
     let lockTimeout = null;
-    let npmprocess = childprocess.spawn("git", ["-c", "color.ui=always", "pull"], {
+    let npmprocess = childprocess.spawn("npm", ["i"], {
         cwd: path.resolve(__dirname)
     });
     let npmtimeout = setTimeout(() => {
